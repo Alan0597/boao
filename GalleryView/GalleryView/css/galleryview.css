@@ -1,0 +1,18 @@
+
+#photos {visibility: hidden;}
+.galleryview {background: rgb(221, 221, 221); padding: 0px; border: 0px solid rgb(170, 170, 170); border-image: none;box-shadow: 6px 6px 5px #ccc;}
+.loader {background: url("loader.gif") no-repeat center rgb(221, 221, 221);}
+.panel img{ width:600px;}
+.panel .panel-overlay {padding: 0px 1em; height: 60px;}
+.panel .overlay-background {padding: 0px 1em; height: 60px;}
+.panel .overlay-background {background: rgb(34, 34, 34);}
+.panel .panel-overlay {	color: white; font-size: 0.7em;}
+.panel .panel-overlay a {color: white; text-decoration: underline;}
+.filmstrip {margin: 5px;}
+.frame .img_wrap {border: 0px solid rgb(170, 170, 170); border-image: none;}
+.frame.current .img_wrap {border-color: rgb(0, 0, 0);}
+.frame img {border: currentColor; border-image: none;}
+.frame .caption {text-align: center; color: rgb(136, 136, 136); font-size: 11px;}
+.frame.current .caption {color: rgb(0, 0, 0);}
+.pointer {border-color: rgb(0, 0, 0);}
+.filmstrip img{width:50px; height:50px;}
