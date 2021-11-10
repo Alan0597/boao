@@ -1,0 +1,148 @@
+body{
+	background-color: #fbfbfb;
+}
+#head, #menu{
+	background-color: #FFFFFF;
+}
+/* 主要内容样式开始 */
+/* 主要内容左上样式开始 */
+#list_main{
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+#list_main_left{
+	width: 270px;
+	float: left;
+	background-color: #FFFFFF;
+}
+#list_main_left_top ul li{
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-weight: bold;
+	cursor: pointer;
+	border-bottom: 1px dashed #CCCCCC;
+}
+#list_left_lit{
+	font-size: 28px;
+	color: #164185;
+	border-right: 10px solid #164185;
+}
+.list_left_li{
+	border-right: 2px solid #FF9900;
+}
+.list_left_li:hover{
+	background-color: #164185;
+	color: #FFFFFF;
+}
+#list_main_left_top{
+	margin-bottom: 30px;
+}
+#list_main_left_top a{
+	color: #000000;
+}
+#list_main_left_top a:hover{
+	color: #FFFFFF;
+}
+/* 主要内容左上样式结束 */
+/* 主要内容左下样式开始 */
+#list_main_left_down{
+	margin-bottom: 50px;
+	box-shadow: 0px 10px 10px 5px #CCCCCC;	
+}
+#list_main_left_down{
+	width: 270px;
+	padding-bottom: 20px;
+}
+#list_meeting{
+	height: 50px;
+	cursor: pointer;
+	margin-bottom: 10px;
+	padding: 5px 5px 5px 5px;
+	background-color: #164185;
+}
+#list_main_left_down a{
+	display: block;
+	height: 100%;
+	font-size: 24px;
+	line-height: 45px;
+	text-align: center;
+	color: #FFFFFF;
+	border: 1px solid #FFFFFF;
+}
+#list_meeting_pic{
+	width: 250px;
+	margin: 0 auto;
+}
+#list_meeting_pic img{
+	width: 250px;
+	height: 230ox;	
+}
+.meet_pic{
+	font-size: 14px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+/* 主要内容左下样式结束 */
+/* 主要内容右边头部样式开始 */
+#list_main_right{
+	float: left;
+	width: 870px;
+	margin-left: 55px;
+}
+#list_right_top{
+	margin-left: 20px;
+	background-color: #FFFFFF;
+}
+#list_right_top ul{
+	margin-left: 35px;
+}
+#list_right_top ul li{
+	float: left;
+	height: 60px;
+	line-height: 60px;
+	font-size: 12px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+#news_list{
+	margin-left: 20px;
+	margin-top: 10px;
+}
+/* 主要内容右边头部样式结束 */
+/* 主要内容右边新闻列表样式开始 */
+.news_list_block{
+	width: 850px;
+	height: 110px;
+	padding-top: 20px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	background-color: #FFFFFF;
+	box-shadow: 0px 10px 10px 5px #CCCCCC;
+}
+.news_list_time{
+	margin: 0 auto;
+	width: 750px;
+	font-size: 14px;
+	color: #CCCCCC;
+	border-bottom: 2px solid #CCCCCC;
+}
+.news_list_wz{
+	width: 750px;
+	margin: 0 auto;
+	/* margin-left: 50px; */
+}
+.news_list_wz h4{
+	color: #808080;
+	line-height: 40px;
+}
+.news_list_wz p{
+	font-size: 13px;
+	color: #C0C0C0;
+}
+.news_list_block:hover{
+	background-color: #CCFFFF;
+}
+/* 主要内容右边新闻列表样式开始 */
+/* 主要内容样式结束 */

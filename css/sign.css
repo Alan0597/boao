@@ -1,0 +1,164 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.clearfix:after, .clearfix:before{
+	content: "";
+	display: table;
+}
+.clearfix:after{
+	clear: both;
+}
+.clearfix{
+	*zoom: 1;
+}
+body{
+	background-image: url(../images/sign_bg.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+#sign{
+	margin: 0 auto;
+	margin-top: 10%;
+	width: 600px;
+	border-radius: 20px;
+	background-color: rgb(190, 190, 190, 0.6);
+}
+#title{
+	text-align: center;
+	font-family: "微软雅黑";
+	font-size: 46px;
+	color: #164185;
+	margin-bottom: 20px;
+}
+#nickname, #password{
+	height: 40px;
+	width: 300px;
+	margin-left: 130px;
+	border-radius: 5px;
+	border: 1px solid #B8B8B8;
+	padding-top: 5px;
+	padding-left: 20px;
+	font-size: 18px;
+}
+#tick1{
+	position: absolute;
+	display: none;
+	margin-top: 17px;
+	margin-left: 420px;
+}
+#tick2{
+	position: absolute;
+	display: none;
+	margin-top: 47px;
+	margin-left: 445px;
+}
+#tick3{
+	position: absolute;
+	display: none;
+	margin-top: -35px;
+	margin-left: 445px;
+}
+/* #phone{
+	background-color: #000000;
+} */
+#ni, #pa{
+	float: left;
+}
+#nError1, #nError2, #pError1, #pError2, #pError3, #phoneNumberError , #xieyiError{
+	display: none;
+	margin-left: 130px;
+}
+#password{
+	margin-top: 10px;
+}
+#nicknamError, #passwordError, #phoneNumberError, #xieyiError{
+	padding-top: 5px;
+	color: #FF0000;
+	font-size: 14px;
+}
+#nicknamError img, #passwordError img, #phoneNumberError img, #xieyiError img{
+	vertical-align: bottom;
+	margin-right: 4px;
+}
+#phone, #sms{
+	margin-top: 10px;
+	margin-left: 130px;
+}
+#areaCode, #smsCode{
+	width: 75px;
+	height: 40px;
+	border-radius: 5px;
+	border: 1px solid #B8B8B8;
+	padding-left: 20px;
+	font-size: 18px;
+}
+#smsCode{
+	padding-left: 8px;
+	font-size: 14px;
+}
+#phoneNumber{
+	width: 190px;
+	height: 40px;
+	border-radius: 5px;
+	border: 1px solid #B8B8B8;
+	padding-left: 20px;
+	margin-left: 10px;
+	font-size: 20px;
+}
+#info{
+	color: #333333;
+	margin-left: 130px;
+	padding-top: 5px;
+	font-size: 14px;
+}
+#sms{
+	display: none;
+}
+#smsSubmit{
+	width: 223px;
+	height: 40px;
+	border: 1px solid #3083FF;
+	background-color: #3083FF;
+	border-radius: 5px;
+	color: #FFFFFF;
+	font-size: 18px;
+	margin-left: 10px;
+}
+#submit{
+	width: 300px;
+	height: 40px;
+	margin-left: 130px;
+	border: 1px solid #3083FF;
+	background-color: #3083FF;
+	border-radius: 5px;
+	margin-top: 13px;
+	color: #FFFFFF;
+	font-size: 20px;
+}
+#submit:focus, #smsSubmit:focus{
+	outline: none;
+	border: 1px solid #3083FF;
+}
+#submit:hover, #smsSubmit:hover{
+	background-color: #4169E1;
+}
+#check{
+	margin-top: 15px;
+	margin-left: 130px;
+	height: 70px;
+	font-size: 14px;
+	color: #333333;
+	margin-bottom: 60px;
+}
+#xieyi_div a{
+	display: block;
+	font-size: 14px;
+	line-height: 18px;
+	text-decoration: none;
+}
+#nickname:focus, #password:focus, #areaCode:focus, #phoneNumber:focus, #smsCode:focus{
+	outline: none;
+	border: 1px solid #00BFFF;
+}

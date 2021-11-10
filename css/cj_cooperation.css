@@ -1,0 +1,144 @@
+body{
+	background-color: #FAFAFA;
+}
+#list_main_right{
+	background-color: #FFFFFF;
+}
+/* 标题样式开始 */
+#details_title{
+	background-color: #FFFFFF;
+	width: 870px;
+	text-align: center;
+	border-bottom: #D2D3D7;
+	padding-bottom: 15px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #999999;
+}
+#details_title h3{
+	line-height: 40px;
+	margin-bottom: 15px;
+}
+#details_title_footer{
+	width: 870px;
+	margin: 0 auto;
+	font-size: 12px;
+	color: #999999;
+}
+#details_title_footer span{
+	margin-right: 50px;
+	margin-left: 50px;
+	line-height: 20px;
+}
+/* 标题样式结束 */
+/* 内容样式开始 */
+#details_conter{
+	margin: 0 auto;
+	width: 760px;
+}
+#details_conter p{
+	display: block;
+	margin-bottom: 10px;
+	font-size: 16px;
+	color: #363636;
+	text-indent: 2em;
+	line-height: 30px;
+}
+/* 轮播图样式开始 */
+#sl{
+	margin: 0 auto;
+	width: 500px;
+	height: 330px;
+	position: relative;
+}
+#slider, #slider ul, #slider a{
+	width: 500px;
+	height: 300px;
+}
+#slider{
+	 position: absolute;
+	/*padding: 3px;*/
+	/* margin: 10px 0 0 10px; */
+	overflow: hidden;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+}
+#slider ul{
+	position: absolute;
+	list-style-type: none;
+	width: 6000px;
+	/*transition-duration: 0.3s;*/
+}
+#slider ul li{
+	 float: left;
+}
+#slider ul li a{
+	 display: inline-block;
+}
+#slider ul li a img{
+	width: 100%;
+	height: 100%;
+}
+#slider:hover .arrow-container{
+	display: block;
+}
+.arrow-container{
+	position: absolute;
+	width: 100%;
+	height: 50px;
+	top: 50%;
+	margin-top: -25px;
+	display: none;
+}
+.arrow-container span{
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	font-size: 20px;
+	/*display: inline-block;*/
+	text-align: center;
+	line-height: 40px;
+	background: rgba(0, 0, 0, 0.2);
+	color: white;
+	border-radius: 20px;
+	transition: 0.5s;
+}
+.arrow-container span:hover{
+	transition: 0.5s;
+	background: rgba(0, 0, 0, 0.5);
+}
+.left-arrow{
+	left: 15px;
+	cursor: pointer;
+}
+.right-arrow{
+	right: 15px;
+	cursor: pointer;
+}
+.indicator-container{
+	position: absolute;
+	width: 150px;
+	height: 30px;
+	line-height: 30px;
+	bottom: 0;
+	left: 50%;
+	margin-left: -75px;
+	text-align: center;
+}
+.indicator{
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	border-radius: 100%;
+	background: white;
+	cursor: pointer;
+}
+.indicator.active{
+	background: red;
+}
+.indicator-container{
+	display: none;
+}
+/* 轮播图样式结束 */
+/* 内容样式结束 */
