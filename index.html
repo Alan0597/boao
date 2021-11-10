@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>博鳌亚洲论坛</title>
+	<link rel="stylesheet" type="text/css" href="css/index_css.css"/>
+	<link rel="stylesheet" type="text/css" href="css/galleryview.css"/>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/index_js.js"></script>
+	<script type="text/javascript" src="js/jquery-1.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/jquery.galleryview-1.1.js"></script>
+	<script type="text/javascript" src="js/jquery.timers-1.1.2.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#photos').galleryView({
+				panel_width:486,
+				panel_height:324,
+				frame_width:70,
+				frame_height:70
+			});
+		});
+	</script>
+</head>
+<body>
+	<!-- 头 -->
+	<script type="text/javascript" src="js/html_to_js_top.js"></script>
+	<!-- 头 -->
+	<!-- banner开始 -->
+	<div id="banner">
+		<div id="banner_img">
+			<img src="images/bannerwz1.png" alt="图片" style="display: none;" id="div1" >
+			<img src="images/bannerwz2.png" alt="图片" style="display: none" id="div2" >
+			<img src="images/bannerwz3.png" alt="图片" style="display: none" id="div3" >
+			<img src="images/forum2019_cont.png" alt="图片" style="display: none" id="div4" >
+		</div>
+	</div>
+	<!-- banner结束 -->
+	<!-- 会议动态开始 -->
+	<div id="meet">
+		<!-- 我称它为文字的上下联动 -->
+		<div id="wz_linkage">
+			<span>会议动态</span>
+			<ul id="ulid">
+				<li οnclick="alert(1)"><a href="#">博鳌亚洲论坛全球健康第二届大会筹备工作会议在青岛举行</a></li>
+				<li οnclick="alert(2)"><a href="#">潘基文理事长在博鳌亚洲论坛亚洲减贫报告2020发布会上的讲话</a></li>
+				<li οnclick="alert(3)"><a href="#">博鳌亚洲论坛发布《亚洲减贫报告》</a></li>
+				<li οnclick="alert(4)"><a href="#">我有一个plan，因为lan，所我只完成了p</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- 会议动态结束 -->
+	<!-- 主要内容开始 -->
+	<div id="main">
+		<!-- main头部开始 -->
+		<div id="main_top" class="clearfix">
+			<!-- 重要会见开始 -->
+			<div id="important_meet">
+				<p>Meetings</p>
+				<div class="title1">
+					<h3>重要会见</h3>
+					<a href="#">More<span>+</span></a>
+				</div>
+				<div id="roll_pic">
+					<div id="photos" class="galleryview">
+						<!-- 大图，一个盒子一张图 -->
+						<div class="panel">
+							<a href="#"><img src="images/important_01.png" alt="图1" title="详情" ></a>
+							<div class="panel-overlay">
+								<h2>李保东秘书长汶川县委书记张通荣</h2>
+							</div>
+						</div>
+						<div class="panel">
+							<a href="#"><img src="images/important_02.png" alt="图2" title="详情" ></a>
+							<div class="panel-overlay">
+								<h2>博鳌亚洲论坛秘书长李保东会见波兰驻华大……</h2>
+							</div>
+						</div>
+						<div class="panel">
+							<a href="#"><img src="images/important_03.png" alt="图3" title="详情" ></a>
+							<div class="panel-overlay">
+								<h2>博鳌亚洲论坛秘书长李保东会见湖南省副省……</h2>
+							</div>
+						</div>
+						<div class="panel">
+							<a href="#"><img src="images/important_04.png" alt="图4" title="详情" ></a>
+							<div class="panel-overlay">
+								<h2>李保东秘书长会见SK集团大中华区总裁吴作义</h2>
+							</div>
+						</div>
+						<div class="panel">
+							<a href="#"><img src="images/important_05.png" alt="图5" title="详情" ></a>
+							<div class="panel-overlay">
+								<h2>李保东秘书长会见世界知识产权组织中国办……</h2>
+							</div>
+						</div>
+						<ul class="filmstrip">
+							<!-- 缩略图 -->
+							<li><img src="images/important_01.png" alt="图1" ></li>
+							<li><img src="images/important_02.png" alt="图2" ></li>
+							<li><img src="images/important_03.png" alt="图3" ></li>
+							<li><img src="images/important_04.png" alt="图4" ></li>
+							<li><img src="images/important_05.png" alt="图5" ></li>
+						</ul>
+					</div>
+				</div>
+				<div id="important_meet_footer">
+				<p>博鳌亚洲论坛</p>
+				</div>
+			</div>
+			<!-- 重要会见结束 -->
+			<!-- 新闻列表开始 -->
+			<!-- 新闻动态 -->
+			<div id="news">
+				<p>News</p>
+				<div class="title2">
+					<h3>新闻动态</h3>
+					<a href="#">More<span>+</span></a>
+				</div>
+				<div id="news_list">
+					<ul>
+						<li class="clearfix">
+							<div id="news_list_time01">
+								<div class="time_ym">2021.01</div>
+								<div id="news_time_d01">01</div>
+							</div>
+							<div id="news_list_zi01" onmouseover="news_time01_over()" onmouseout="news_time01_out()">	<!-- zi=字 -->
+								<a href="#">
+									<h3>潘基文理事长新年贺词2021</h3>
+									<p>值此词迎新之际，我百感交集。衷心祝愿各位和你们的家人、同事、朋友圣诞快乐、……</p>
+								</a>
+							</div>
+						</li>
+						<li class="clearfix">
+							<div id="news_list_time02">
+								<div class="time_ym">2020.12</div>
+								<div id="news_time_d02">23</div>
+							</div>
+							<div id="news_list_zi02" onmouseover="news_time02_over()" onmouseout="news_time02_out()">	<!-- zi=字 -->
+								<a href="#">
+									<h3>潘基文理事长向博鳌大家庭致以新春问候</h3>
+									<p>&nbsp;</p>
+								</a>
+							</div>
+						</li>
+						<li class="clearfix">
+							<div id="news_list_time03">
+								<div class="time_ym">2020.12</div>
+								<div id="news_time_d03">22</div>
+							</div>
+							<div id="news_list_zi03" onmouseover="news_time03_over()" onmouseout="news_time03_out()">	<!-- zi=字 -->
+								<a href="#">
+									<h3>中日合作推动全面建设面向碳中和的智慧健康城市</h3>
+									<p>12月22日，中日新时代健康论坛框架下的“中日新时代健康城市的创建”分论坛成功举……</p>
+								</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- 声明公告 -->
+			<div id="announcement">
+				<p>Announcement</p>
+				<div class="title2">
+					<h3>声明公告</h3>
+					<a href="#">More<span>+</span></a>
+				</div>
+				<div id="announcement_list">
+					<ul>
+						<li class="clearfix">
+							<div id="announcement_list_time01">
+								<div class="time_ym">2020.11</div>
+								<div id="announcement_time_d01">27</div>
+							</div>
+							<div id="announcement_list_zi01" onmouseover="announcement_time01_over()" onmouseout="announcement_time01_out()">	<!-- zi=字 -->
+								<a href="#">
+									<h3>郑重声明</h3>
+									<p>近年包含“博鳌”字样的各种论坛和会议越来越多，外界经常质疑这些论坛或会议是否……</p>
+								</a>
+							</div>
+						</li>
+						<li class="clearfix">
+							<div id="announcement_list_time02">
+								<div class="time_ym">2020.12</div>
+								<div id="announcement_time_d02">16</div>
+							</div>
+							<div id="announcement_list_zi02" onmouseover="announcement_time02_over()" onmouseout="announcement_time02_out()">	<!-- zi=字 -->
+								<a href="#">
+									<h3>关于“中国首届亚洲家居博鳌论坛会” 商标侵权郑重声明</h3>
+									<p>近日，有网络媒体发布标题为“中国首届亚洲家居博鳌论坛会会务组成立”文章。鉴此……</p>
+								</a>
+							</div>
+						</li>
+						<li class="clearfix">
+							<div id="announcement_list_time03">
+								<div class="time_ym">2020.06</div>
+								<div id="announcement_time_d03">17</div>
+							</div>
+							<div id="announcement_list_zi03" onmouseover="announcement_time03_over()" onmouseout="announcement_time03_out()">	<!-- zi=字 -->
+								<a href="#">
+									<h3>关于“博鳌亚洲论坛·生命与医疗科技创新论坛大会”商标侵权严正声明</h3>
+									<p>近日，有社会传闻称，博鳌亚洲论坛将与国家卫生健康委员会和广东省人民政府举办“……</p>
+								</a>
+							</div>
+						</li>
+					</ul>
+			</div>
+		</div>
+			<!-- 新闻列表结束 -->
+		</div>
+		<!-- main头部结束 -->
+		<!-- main中部开始 -->
+		<div id="main_viewpoints" class="clearfix">
+			<p>Viewpoints</p>
+			<div class="title3">
+				<h3>博鳌观点</h3>
+				<a href="#">More<span>+</span></a>
+			</div>
+			<div id="main_viewpoints_left">
+				<ul>
+					<a href="#"><li>博鳌亚洲论坛发布《“一带一路”绿色发展……</li></a>
+					<a href="#"><li>亚洲减贫存在三大关键性挑战 博鳌亚洲论坛……</li></a>
+					<a href="#"><li>博鳌亚洲论坛国际科技与创新论坛首届大会……</li></a>
+					<a href="#"><li>陈冯富珍：防控疫情需要全球协同努力</li></a>
+					<a href="#"><li>陈冯富珍：此次“大流行”带给人类三个……</li></a>
+					<a href="#"><li>拉法兰：疫情让我们重新思考独立自主与携……</li></a>
+					<a href="#"><li>阿赫塔尔：中国应对疫情的措施和经验值得……</li></a>
+				</ul>
+			</div>
+			<div id="main_viewpoints_middle">
+				<!-- 轮播图 -->
+				<div id="slider">
+					<ul class="slieder-item-container">
+						<li>
+							<a href="#">
+								<img src="images/viewpoints01.png" />
+								<div class="slieder_footer_p">
+									<h5>七方代表提出12点建议 深入推进“一带一路”倡议与</h5>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/viewpoints02.png" />
+								<div class="slieder_footer_p">
+									<h5>周小川：四点建议促进亚欧合作</h5>
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/viewpoints03.png" />
+								<div class="slieder_footer_p">
+									<h5>专访问世界卫生组织前总干事 陈冯富珍：防控疫情需要</h5>
+								</div>
+							</a>
+						</li>
+					</ul>
+					<div class="arrow-container">
+						<span class="left-arrow">&lt;</span>
+						<span class="right-arrow">&gt;</span>
+					</div>
+					<div class="indicator-container">
+						<span class="indicator active"></span>
+						<span class="indicator"></span>
+						<span class="indicator"></span>
+					</div>
+				</div>
+			</div>
+			<div id="main_viewpoints_right">
+				<ul>
+					<a href="#"><li>专访世卫组织前总干事 陈冯富珍：防控疫情……</li></a>
+					<a href="#"><li>七方代表提出12点建议 深入推进 “一带一路……</li></a>
+					<a href="#"><li>芬兰前总理：亚欧要携手并肩推动技术变革</li></a>
+					<a href="#"><li>周小川：四点建议促进亚欧合作</li></a>
+					<a href="#"><li>曾培炎：未来已来，创新与应用是无国界的</li></a>
+					<a href="#"><li>周小川：公共政策应尽早应对人工智能对就……</li></a>
+					<a href="#"><li>拉法兰：中法合作将为构建21世纪的多边主……</li></a>
+				</ul>
+			</div>
+		</div>
+		<div id="main_partner" class="clearfix">
+			<p>Partner of the year 2020</p>
+			<div class="title3">
+				<h3>2020年年度合作伙伴鸣谢</h3>
+				<a href="#">More<span>+</span></a>
+			</div>
+			<div id="main_partner_img">
+				<ul>
+					<a href="#"><li><img src="images/partner01.png" alt="合作伙伴" ></li></a>
+					<a href="#"><li><img src="images/partner02.png" alt="合作伙伴" ></li></a>
+					<a href="#"><li><img src="images/partner03.png" alt="合作伙伴" ></li></a>
+					<a href="#"><li><img src="images/partner04.png" alt="合作伙伴" ></li></a>
+					<a href="#"><li><img src="images/partner05.png" alt="合作伙伴" ></li></a>
+				</ul>
+			</div>
+			
+		</div>
+		<div id="main_annual" class="clearfix">
+			<p>Annual Conferences</p>
+			<div class="title3">
+				<h3>历年年会</h3>
+				<a href="#">More<span>+</span></a>
+			</div>
+			<div id="main_annual_img">
+				<ul>
+					<li>
+						<a href="#"><img src="images/annual01.jpg" alt="历年年会" ></a>
+						<a href="#">
+							<div id="annual_details01" onmouseover="annual_time_over01()" onmouseout="annual_time_out01()">
+								<div id="details_box01">查看详情</div>
+								<span id="annual_time01">2019年会</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#"><img src="images/annual02.jpg" alt="历年年会" ></a>
+						<a href="#">
+							<div id="annual_details02" onmouseover="annual_time_over02()" onmouseout="annual_time_out02()">
+								<div id="details_box02">查看详情</div>
+								<span id="annual_time02">2018年会</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#"><img src="images/annual03.jpg" alt="历年年会" ></a>
+						<a href="#">
+							<div id="annual_details03" onmouseover="annual_time_over03()" onmouseout="annual_time_out03()">
+								<div id="details_box03">查看详情</div>
+								<span id="annual_time03">2017年会</span>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="main_themed" class="clearfix">
+			<p>Themed Conferences</p>
+			<div class="title3">
+				<h3>专题会议</h3>
+				<a href="#">More<span>+</span></a>
+			</div>
+			<div id="main_themed_img">
+				<ul>
+					<li>
+						<a href="#"><img src="images/themed01.jpg" alt="专题会议" ></a>
+						<a href="#">
+							<div id="themed_details04" onmouseover="annual_time_over04()" onmouseout="annual_time_out04()">
+								<div id="details_box04">查看详情</div>
+								<span id="themed_time04">全球健康论坛大会</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#"><img src="images/themed02.jpg" alt="专题会议" ></a>
+						<a href="#">
+							<div id="themed_details05" onmouseover="annual_time_over05()" onmouseout="annual_time_out05()">
+								<div id="details_box05">查看详情</div>
+								<span id="themed_time05">国际科技与创新论坛大会</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#"><img src="images/themed03.jpg" alt="专题会议" ></a>
+						<a href="#">
+							<div id="themed_details06" onmouseover="annual_time_over06()" onmouseout="annual_time_out06()">
+								<div id="details_box06">查看详情</div>
+								<span id="themed_time06">全球经济发展与安全大会</span>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="main_regional" class="clearfix">
+			<p>Regional Conferences</p>
+			<div class="title3">
+				<h3>地区会议</h3>
+				<a href="#">More<span>+</span></a>
+			</div>
+			<div id="main_regional_img">
+				<ul>
+					<li>
+						<a href="#"><img src="images/regional01.png" alt="地区会议" ></a>
+						<a href="#">
+							<div id="regional_details07" onmouseover="annual_time_over07()" onmouseout="annual_time_out07()">
+								<div id="details_box07">查看详情</div>
+								<span id="regional_time07">马尼拉会议</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#"><img src="images/regional02.png" alt="地区会议" ></a>
+						<a href="#">
+							<div id="regional_details08" onmouseover="annual_time_over08()" onmouseout="annual_time_out08()">
+								<div id="details_box08">查看详情</div>
+								<span id="regional_time08">乌兰巴托会议</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="#"><img src="images/regional03.png" alt="地区会议" ></a>
+						<a href="#">
+							<div id="regional_details09" onmouseover="annual_time_over09()" onmouseout="annual_time_out09()">
+								<div id="details_box09">查看详情</div>
+								<span id="regional_time09">亚欧合作对话</span>
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- main中部结束 -->
+		<!-- main底部开始 -->
+		<div id="main_switch" class="clearfix">
+			<div id="main_switch_left">
+				<ul>
+					<a href="#"><li><span>论坛发起国+</span></li></a>
+					<a href="#"><li class="temp1"><span>申请成为论坛会员</span></li></a>
+					<a href="#"><li><span>申请成为</span></li></a>
+				</ul>
+			</div>
+			<div id="main_switch_right">
+				<div id="switch_right_top" class="clearfix">
+					<ul>
+						<a><li id="sth_li01" onclick="switch01()" style="background-color: #FFFFFF; color: #164185;"><span>发起国动态</span></li></a>
+						<a><li id="sth_li02" onclick="switch02()" class="temp2"><span>会员动态</span></li></a>
+						<a><li id="sth_li03" onclick="switch03()"><span>合作伙伴动态</span></li></a>
+					</ul>
+				</div>
+				<div id="switch_new_list01">
+					<ul>
+						<a href="#"><li>博鳌亚洲论坛秘书长李保东会见波兰驻华大使赛熙军</li></a>
+						<a href="#"><li>李保东秘书长会见世界知识产权组织中国办事处主任刘华</li></a>
+						<a href="#"><li>尼泊尔驻华大使潘迪向博鳌亚洲论坛国际科技与创新论坛大会发来贺信</li></a>
+						<a href="#"><li>博鳌亚洲论坛2020旗舰报告首发会观点锦集，多国大使共话疫情应对措施</li></a>
+						<a href="#"><li>约旦驻华大使侯赛尼致信博鳌亚洲论坛秘书长李保东</li></a>
+						<a href="#"><li>潘基文理事长致信联合国秘书长古特雷斯</li></a>
+						<a href="#"><li>李保东秘书长会见澳大利亚外交及贸易部副部长朗曼</li></a>
+					</ul>
+				</div>
+				<div id="switch_new_list02">
+					<ul>
+						<a href="#"><li>天鹅到家（原58到家）全新起航 打造全国领先的家庭服务平台</li></a>
+						<a href="#"><li>索尼斥2.5亿美元战略投资Epic Games</li></a>
+						<a href="#"><li>索尼启动 “THU索尼人才联盟” ，激励创作者打破数字娱乐创意边界</li></a>
+						<a href="#"><li>南方电网发布全球首份《数字电网白皮书》</li></a>
+						<a href="#"><li>注册Airpeak品牌 索尼启动人工智能无人机项目</li></a>
+						<a href="#"><li>索尼将线上参展CEATEC2020，迎接新常态世界下的3R挑战</li></a>
+						<a href="#"><li>中国石化前三季度实现净利润235亿元</li></a>
+					</ul>
+				</div>
+				<div id="switch_new_list03">
+					<ul>
+						<a href="#"><li>沙特基础工业公司成为博鳌亚洲论坛荣誉战略合作伙伴</li></a>
+						<a href="#"><li>德勤《聚焦亚洲》：2020年底前中国的强劲复苏有望推动区域经济反弹</li></a>
+						<a href="#"><li>阿斯利康支持全球抗疫，900万只口罩从中国运往海外抗疫第一线</li></a>
+						<a href="#"><li>沙特基础工业公司携手《财经》杂志及《财经智库》联合发布 “全球经济信心指数” 全球经济遭……</li></a>
+						<a href="#"><li>万岁爷遇到故宫掌门人，博鳌亚洲论坛文化之夜塔台唱了什么戏？</li></a>
+						<a href="#"><li>博鳌亚洲论坛上的伊利声音：如何从中国企业迈向全球企业</li></a>
+						<a href="#"><li>通航话题首现博鳌亚洲论坛2017年年会海航通航投资集团正式成立</li></a>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="main_PR" class="clearfix">
+			<p>Project & Research</p>
+			<div class="title3">
+				<h3>报告|课题</h3>
+				<a href="#">More<span>+</span></a>
+			</div>
+			<div id="main_PR_img">
+				<ul>
+					<a href="#">
+						<li>
+							<img src="images/PR01.png" alt="报告课题" >
+							<div id="PR_img01">
+								<p>亚洲减贫报告</p>
+								<span>点击查看</span>
+							</div>
+						</li>
+					</a>
+					<a href="#">
+						<li>
+							<img src="images/PR02.png" alt="报告课题" >
+							<div id="PR_img02">
+								<p>创新报告2020</p>
+								<span>点击查看</span>
+							</div>
+						</li>
+					</a>
+					<a href="#">
+						<li>
+							<img src="images/PR03.png" alt="报告课题" >
+							<div id="PR_img03">
+								<p>亚洲金融发张……</p>
+								<span>点击查看</span>
+							</div>
+						</li>
+					</a>
+					<a href="#">
+						<li>
+							<img src="images/PR04.png" alt="报告课题" >
+							<div id="PR_img04">
+								<p>疫情与变化的世界</p>
+								<span>点击查看</span>
+							</div>
+						</li>
+					</a>
+					<a href="#">
+						<li>
+							<img src="images/PR05.png" alt="报告课题" >
+							<div id="PR_img05">
+								<p>亚洲经济前景及一</p>
+								<span>点击查看</span>
+							</div>
+						</li>
+					</a>
+				</ul>
+			</div>
+		</div>
+		<!-- main底部结束 -->
+	</div>
+	<!-- 主要内容结束 -->
+	<script type="text/javascript" src="js/html_to_js_down.js"></script>
+</body>
+</html>
